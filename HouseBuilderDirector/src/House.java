@@ -1,4 +1,6 @@
 public class House {
+
+    /* House is a product class */
     private HouseType houseType;
     private String structure;
     private String basement;

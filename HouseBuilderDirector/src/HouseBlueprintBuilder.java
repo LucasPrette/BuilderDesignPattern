@@ -1,4 +1,11 @@
-public class HousePlantBuilder implements Builder{
+public class HouseBlueprintBuilder implements Builder{
+
+    /* Builder can create unrelated products which don't have the common interface
+    *
+    * In this case we are building the house blueprint. This allows to produce different
+    * blueprints for different houses.
+    *
+    * */
     private HouseType houseType;
     private String basement;
     private String roof;
@@ -29,7 +36,7 @@ public class HousePlantBuilder implements Builder{
         this.roof = roof;
     }
 
-    public HousePlant getHousePlant() {
-        return new HousePlant(houseType, basement,structure, roof, interior);
+    public HouseBlueprint getHousePlant() {
+        return new HouseBlueprint(houseType, basement,structure, roof, interior);
     }
 }

@@ -1,4 +1,6 @@
 public class HouseBuilder implements Builder {
+
+    /* Concrete builder who will implement all the steps from the Interface */
     private HouseType houseType;
     private String structure;
     private String basement;

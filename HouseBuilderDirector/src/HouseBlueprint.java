@@ -1,11 +1,13 @@
-public class HousePlant {
+public class HouseBlueprint {
+
+    /*HouseBlueprint is a product class*/
     private HouseType houseType;
     private String basement;
     private String roof;
     private String structure;
     private String interior;
 
-    public HousePlant
+    public HouseBlueprint
             (
                     HouseType houseType,
                     String basement,

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BuilderDesign.iml" filepath="$PROJECT_DIR$/.idea/BuilderDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BuilderDesignCar/BuilderDesignCar.iml" filepath="$PROJECT_DIR$/BuilderDesignCar/BuilderDesignCar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BuilderDesignHouse/BuilderDesignHouse.iml" filepath="$PROJECT_DIR$/BuilderDesignHouse/BuilderDesignHouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HouseBuilderDirector/HouseBuilderDirector.iml" filepath="$PROJECT_DIR$/HouseBuilderDirector/HouseBuilderDirector.iml" />
+    </modules>
+  </component>
+</project>

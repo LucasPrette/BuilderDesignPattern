@@ -1,4 +1,11 @@
 public class Director {
+
+    /* The director defines the order that the product will be constructed
+    * which steps are coming first or not.
+    *
+    * It also has pre-made products, so can just choose automatically and it will build.
+    *
+    * However, if necessary, you can build a specific house but without using the director. */
     public void constructWoodenHouse(Builder builder) {
         builder.setHouseType(HouseType.WOODEN_HOUSE);
         builder.buildBasement("Planks");
